@@ -1,6 +1,6 @@
 # Site settings
 title: 鱼丸xixi # 你的博客名字，可以定义修订
-header-img: "img/e1a174f15b8866a4829f0d8fa461f70.jpg"
+header-img: "img/xue.jpg"
 tagline: "cn"  
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "qzqzhang" # 你的名字
-      header-img: "img/e1a174f15b8866a4829f0d8fa461f70.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/xue.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
