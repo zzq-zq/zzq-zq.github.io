@@ -9,5 +9,5 @@ description: 文章。
 
 123456
 
-<img src="/img/article/hai.png"/>
+<img src="/img/article/hai.jpg"/>
 
