@@ -87,6 +87,19 @@
                 </ul>
                 <p class="copyright text-muted">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll.
+			<!--添加访问统计-->
+	  <p  class="theme-by text-muted">
+	  <!--script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+	-->
+	<!-- script pointing to busuanzi.js -->
+	<script src="\{\{ site.baseurl /}/}/js/busuanzi.pure.mini.js"></script>
+	  <span id="busuanzi_container_site_pv">
+    本站访问量<span id="busuanzi_value_site_pv"></span>次</span>
+	 </p>
+	 
+          <!-- Please don't remove this, keep my open source work credited :) -->
+
                 </p>
             </div>
         </div>
@@ -99,18 +112,6 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
-<!--添加访问统计-->
-	  <p  class="theme-by text-muted">
-	  <!--script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-	-->
-	<!-- script pointing to busuanzi.js -->
-	<script src="\{\{ site.baseurl /}/}/js/busuanzi.pure.mini.js"></script>
-	  <span id="busuanzi_container_site_pv">
-    本站访问量<span id="busuanzi_value_site_pv"></span>次</span>
-	 </p>
-	 
-          <!-- Please don't remove this, keep my open source work credited :) -->
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
