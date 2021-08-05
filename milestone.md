@@ -2,7 +2,7 @@
 layout: page
 title: "milestone"
 description: "代表作"
-header-img: "img/hua.jpg"
+header-img: "img/hai.jpg"
 ---
 
 
