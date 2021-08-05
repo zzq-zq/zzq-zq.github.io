@@ -3,7 +3,7 @@ layout: post
 title: 如何搭建属于自己的博客 小白篇
 date: 2021-08-04
 categories: blog
-tags: [blog]
+tags: [教程篇]
 description: 文章。
 ---
 
