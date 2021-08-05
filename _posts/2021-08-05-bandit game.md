@@ -4,7 +4,7 @@ layout: post
 title: Bandit Game
 date: 2021-08-05
 categories: blog
-tags: [bandit]
+tags: [wp篇]
 description: 文章。
 
 ---
