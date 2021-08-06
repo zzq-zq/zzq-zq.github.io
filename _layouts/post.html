@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<!--//添加评论系统-->
+<link rel="stylesheet" href="../../../../css/gitalk.css">
+<script src="../../../../js/gitalk.min.js"></script>
+
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
@@ -93,20 +97,6 @@ layout: default
                 <div class="comment">
                     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
                 
-                    <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'zzq-zq',
-    repo: 'zzq-zq.github.io',
-    oauth: {
-        client_id: 'f3b5e79924bf7546102a',
-        client_secret: '0a2180b8892534683e1d758314f78aca96d1b054',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
                     
                 </div>
                 <!-- 多说评论框 end -->
