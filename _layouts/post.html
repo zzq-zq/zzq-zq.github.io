@@ -100,6 +100,14 @@ layout: default
                     
                 </div>
                 <!-- 多说评论框 end -->
+                
+                <!--   gitalk       -->
+{% if site.gitalk %}
+<div class="comment">
+{% include comments.html %}
+</div>
+{% endif %}
+                
             </div>
         </div>
     </div>
