@@ -53,6 +53,14 @@ comments :
     short_name :  # 填写你的 disqus id
   disqus :
       short_name :  # 填写你的 disqus id
+      
+      gitalk:
+enable: true
+owner: zzq-zq
+repo: zzq-zq.github.io
+clientID: f3b5e79924bf7546102a
+clientSecret:0a2180b8892534683e1d758314f78aca96d1b054
+admin: zzq-zq
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  # 填写你  google_analytics id
