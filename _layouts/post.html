@@ -92,6 +92,22 @@ layout: default
                 <!-- 多说评论框 start -->
                 <div class="comment">
                     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
+                
+                    <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'zzq-zq',
+    repo: 'zzq-zq.github.io',
+    oauth: {
+        client_id: 'eca5039e2702f301c37a',
+        client_secret: '515874616ee780353fc2a5b06a6e7e6f2d741482',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+                    
                 </div>
                 <!-- 多说评论框 end -->
             </div>
