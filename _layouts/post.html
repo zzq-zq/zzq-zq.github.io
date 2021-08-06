@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<!--//添加评论系统-->
-<link rel="stylesheet" href="../../../../css/gitalk.css">
-<script src="../../../../js/gitalk.min.js"></script>
-
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
@@ -100,13 +96,6 @@ layout: default
                     
                 </div>
                 <!-- 多说评论框 end -->
-                
-                <!--   gitalk       -->
-{% if site.gitalk %}
-<div class="comment">
-{% include comments.html %}
-</div>
-{% endif %}
                 
             </div>
         </div>
